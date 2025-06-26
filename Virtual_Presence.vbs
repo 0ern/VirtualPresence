@@ -21,7 +21,7 @@ Do While (Timer - StartTime) < (9*60*60) ' 9h=32400s
         WScript.Sleep (0.1*1000) ' 1s=1000ms
         wshShell.SendKeys "{NUMLOCK}"
 
-        WScript.Echo rand
+        'WScript.Echo rand
     Else
         'if locked do nothing
     End If
