@@ -8,3 +8,10 @@ It has a cycle loop, randomised sleep time between an interval and Windows lock 
 
 1. Download the [`Virtual_Presence.vbs`](https://github.com/0ern/VirtualPresence/releases) latest release.
 2. Double click to run.
+
+## Tips
+
+To autorun the script, create a task using the integrated Windows Task Scheduler.
+
+### Any adjustments or suggestions are appreciated.
+No license.
