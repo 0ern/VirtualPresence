@@ -15,7 +15,7 @@ Do While (Timer - StartTime) < (9*60*60) ' 9h=32400s
         Randomize
         rand = Int((max-min+1)*Rnd+min)
     
-        WScript.Sleep rand '(2*60*1000/500) ' 2m=120000ms
+        WScript.Sleep rand '(2*60*1000) ' 2m=120000ms
         wshShell.SendKeys "{NUMLOCK}"
 
         WScript.Sleep (0.1*1000) ' 1s=1000ms
